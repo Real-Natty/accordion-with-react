@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .wrapper {
   display: flex;
   height: 100vh;
@@ -37,10 +43,13 @@
   height: auto;
 }
 .accordionContent {
-  margin: 5rem;
+  /* margin: 5rem 5rem 0 5rem; */
+  margin: 5rem 1rem 0 1rem;
+  width: 75%;
 }
 .accordionSection {
   width: 100%;
+  border: 2px solid green;
 }
 .multiScreen {
   text-align: center;
@@ -48,7 +57,7 @@
 .accordionButtons {
   border: 2px solid green;
   border-radius: 5px;
-  margin: 5px 0;
+  margin: 5px 0 0 5px;
   padding: 5px;
   width: 100%;
 }
@@ -62,7 +71,12 @@
   font-weight: 900;
   font-size: 20px;
 }
-/* 
+
 .accordionButtons p {
-  display: none;
-} */
+  margin-top: 10px;
+}
+.backgroundSect {
+  padding: 10px;
+  border: 10px solid red;
+  font-size: 10px;
+}
