@@ -107,35 +107,7 @@ const DropdownV2 = ({ selectedItem, setSelectedItem }) => {
               })}
           </div>
         )}
-
-        {/* {show && (
-          <div>
-            <p
-              onClick={() => {
-                handleSelectItem("judas");
-              }}
-              style={{
-                backgroundColor: selectedItem === "judas" ? "grey" : "initial",
-              }}
-            >
-              Judas
-            </p>
-            <p
-              onClick={() => {
-                handleSelectItem("paul");
-              }}
-            >
-              Paul
-            </p>
-            <p>John</p>
-            <p>Andrew</p>
-            <p>Peter</p>
-          </div>
-        )} */}
       </aside>
-      {/* starSection */}
-
-      <div></div>
     </div>
   );
 };

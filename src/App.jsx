@@ -6,6 +6,7 @@
 // import Dropdown from "./components/DropdownSection/Dropdown/Dropdown";
 
 import DropdownV2 from "./components/DropdownV2/dropdown-v2";
+import ImageSlider from "./components/image-slider";
 import StarRating from "./components/star-rating";
 import Stars from "./components/stars";
 import { useState } from "react";
@@ -41,15 +42,20 @@ import { useState } from "react";
 // export default App;
 
 const App = () => {
-  const [selectedItem, setSelectedItem] = useState("");
+  // const [selectedItem, setSelectedItem] = useState("");
 
   return (
     <>
-      <DropdownV2
+      {/* <DropdownV2
         selectedItem={selectedItem}
         setSelectedItem={setSelectedItem}
       />
-      <Stars selectedItem={selectedItem} />
+      <Stars selectedItem={selectedItem} /> */}
+      <ImageSlider
+        url={"https://picsum.photos/v2/list"}
+        page={"1"}
+        limit={"10"}
+      />
     </>
   );
 };
