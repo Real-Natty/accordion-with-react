@@ -17,6 +17,8 @@ import TreeView from "./components/tree-view";
 // import { menus } from "./components/tree-view/data";
 import QRCodeGenerator from "./components/qr-code-generator";
 import LightDarkMode from "./components/light-dark-mode";
+import ScrollIndicator from "./components/scroll-indicator";
+import TabTest from "./components/custm-tabs/tab-test";
 
 // import ImageSlider from "./components/image-slider";
 // import RandomColor from "./components/Random-color-changer";
@@ -81,7 +83,11 @@ const App = () => {
 
       {/* <QRCodeGenerator /> */}
 
-      <LightDarkMode />
+      {/* <LightDarkMode /> */}
+
+      {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
+
+      <TabTest />
 
       {/* {menus.map((menu) => ( */}
       {/* // <MenuItem menu={menu} /> */}
