@@ -1,5 +1,7 @@
 .wrapper {
   padding: 8px;
+  text-align: center;
+  margin: 10px 0;
 }
 
 .header {
@@ -24,4 +26,10 @@
   border-color: #000;
   background: #a1d600;
   color: #fff;
+}
+.content {
+  padding: 20px 10px;
+  height: 300px;
+  overflow: auto;
+  background-color: #fff;
 }
