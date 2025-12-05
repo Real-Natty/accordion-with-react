@@ -1,0 +1,24 @@
+.show-more button {
+  border: 2px solid rgb(121, 121, 152);
+  border-radius: 5px;
+  background-color: rgb(149, 248, 149);
+  padding: 5px;
+  cursor: pointer;
+}
+.show-more .imageContainer {
+  display: "flex";
+  /* max-height: ; */
+  flex-direction: column;
+  gap: 10px;
+  border: 2px solid red;
+}
+
+.show-more .imageContainer img {
+  display: block;
+  margin-right: 4px;
+  border-radius: 5px;
+}
+.show-more .container {
+  gap: 10px;
+  background-color: #ccc;
+}
