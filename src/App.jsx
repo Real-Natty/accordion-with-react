@@ -18,7 +18,11 @@ import TreeView from "./components/tree-view";
 import QRCodeGenerator from "./components/qr-code-generator";
 import LightDarkMode from "./components/light-dark-mode";
 import ScrollIndicator from "./components/scroll-indicator";
-import TabTest from "./components/custm-tabs/tab-test";
+// import TabTest from "./components/custm-tabs/tab-test";
+
+import ModalTest from "./components/custom-modal/modal-test";
+import GithubProfileFinder from "./components/github-profile-finder";
+import GithubFinder from "./components/github-finder";
 
 // import ImageSlider from "./components/image-slider";
 // import RandomColor from "./components/Random-color-changer";
@@ -87,7 +91,11 @@ const App = () => {
 
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
 
-      <TabTest />
+      {/* <TabTest /> */}
+      {/* <ModalTest /> */}
+      {/* <GithubProfileFinder /> */}
+
+      <GithubFinder />
 
       {/* {menus.map((menu) => ( */}
       {/* // <MenuItem menu={menu} /> */}
